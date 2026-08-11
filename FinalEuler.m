@@ -50,7 +50,7 @@ MarkerIndicator = {'p','.','.','.','.','.','.','.','.'};
 % Initializing cycle count, time interval of a single cycle (1 day) and text to display cycle count
 % in graph.
 
-dt = 1000;
+dt = 1;
 cyclecount = 0;
 InitialText = [];
 
