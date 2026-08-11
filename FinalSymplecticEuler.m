@@ -59,7 +59,7 @@ InitialText = [];
 fig = figure;
 axis([-35 35 -35 35]);
 grid on
-title('Solar System Simulator (Euler Model)','Color', 'w')
+title('Solar System Simulator (Symplectic Euler Model)','Color', 'w')
 xlabel('Distance From the Sun in AU (x axis)')
 ylabel('Distance From the Sun in AU (y axis)')
 set(gca, 'Color', 'k');
