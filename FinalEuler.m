@@ -81,7 +81,7 @@ end
 % Creating a WHILE loop that constantly updates the position of the bodies
 % till the given time limit.
 
-while cyclecount ~=1 && isvalid(fig)
+while cyclecount ~=1000 && isvalid(fig)
 delete(InitialText)
 cyclecount = cyclecount + 1;
 
